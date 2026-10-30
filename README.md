@@ -1,6 +1,14 @@
 # Sojourn Access
 
-Sojourn Access is a way to use Second Life with a screen reader and the keyboard, on Windows.
+Second Life with a screen reader and the keyboard, on Windows. Early test builds.
+
+## Get it
+
+1. Download the newest build: https://github.com/studio-quire/sojourn-access/releases/latest (under Assets, the file ending in win-x64.zip).
+2. Unzip it, open the folder and press Enter on SojournAccess.exe. Nothing is installed.
+3. If Windows says "Windows protected your PC": More info, then Run anyway. NVDA may read that button as just "R".
+
+Then log in with your Second Life account. F1 says the keys.
 
 This software is not provided or supported by Linden Lab, the makers of Second Life.
 
@@ -18,25 +26,13 @@ Some of what it does:
 
 Sojourn Access can also work with an AI assistant that describes places, people and pictures and does things for you when you ask. Test builds don't include the assistant yet. Everything else works without it.
 
-## Status
+These are test builds: some things are missing or wrong. Please don't rely on Sojourn Access for anything that matters yet.
 
-Early. These are test builds: some things are missing or wrong. Please don't rely on Sojourn Access for anything that matters yet.
+## More on starting it
 
-## Downloading it
+To skip Windows' warning: before unzipping, press Alt+Enter on the zip, check Unblock near the bottom of the General tab, press Enter, then unzip.
 
-Builds are on the Releases page: https://github.com/studio-quire/sojourn-access/releases
-
-The newest release comes first. Under its Assets heading, download the file whose name ends in win-x64.zip.
-
-Before unzipping, you can stop Windows' warning about unsigned programs: on the zip file, press Alt+Enter for its properties, check Unblock near the bottom of the General tab, press Enter, then unzip.
-
-Nothing is installed. Sojourn Access runs from the folder you unzip it into. It doesn't need .NET or anything else installed, and it never updates itself.
-
-## Starting it
-
-Open the folder and press Enter on SojournAccess.exe.
-
-If Windows warns you with a window titled "Windows protected your PC", Tab to the More info link and press Enter, then Tab to the Run anyway button and press Enter.
+It runs from the folder you unzip it into. It doesn't need .NET or anything else installed, and it never updates itself. Older builds are on the Releases page: https://github.com/studio-quire/sojourn-access/releases
 
 When you first log in, Windows Firewall may ask whether Sojourn Access may use networks. It only makes outgoing connections, so Allow is fine, and it should work whichever you choose.
 
