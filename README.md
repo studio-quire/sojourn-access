@@ -34,7 +34,7 @@ To skip Windows' warning: before unzipping, press Alt+Enter on the zip, check Un
 
 It runs from the folder you unzip it into. It doesn't need .NET or anything else installed, and it never updates itself. Older builds are on the Releases page: https://github.com/studio-quire/sojourn-access/releases
 
-When you first log in, Windows Firewall may ask whether Sojourn Access may use networks. It only makes outgoing connections, so Allow is fine, and it should work whichever you choose.
+The first time you log in or teleport, Windows Firewall may ask whether Sojourn Access may use networks. It only makes outgoing connections, so Allow is fine, and it should work whichever you choose.
 
 The login window has Grid (Second Life is chosen), Username, Password, Show password, Start at, and the Log in button. Your password isn't saved. If Second Life asks you to agree to its Terms of Service, or for a code from your authenticator, a small window asks you.
 
