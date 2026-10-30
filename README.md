@@ -8,7 +8,7 @@ Second Life with a screen reader and the keyboard, on Windows. Early test builds
 2. Unzip it, open the folder and press Enter on SojournAccess.exe. Nothing is installed.
 3. If Windows says "Windows protected your PC": More info, then Run anyway. NVDA may read that button as just "R".
 
-Then log in with your Second Life account. F1 says the keys.
+Then log in with your Second Life account. F1 shows the keys.
 
 This software is not provided or supported by Linden Lab, the makers of Second Life.
 
@@ -42,12 +42,13 @@ When you've arrived, the cursor is in the Say box, as in Radegast. The folder al
 
 ## The first keys
 
-- F1: the keys, spoken.
+- F1: the keys, in a window to read line by line. Escape closes it.
 - Type //help in the Say box and press Enter: the commands.
 - Enter says what you typed, Shift+Enter whispers, Control+Enter shouts.
 - Alt+1 to Alt+9, and Alt+0: the areas (nearby chat, conversations, people, inventory, search, places, objects, notices, the assistant, settings).
 - Control+Tab: the next conversation.
-- Control+N: the newest notice. Number keys press its buttons.
+- Control+N: the newest notice. 1 to 9, 0, minus and equals press its buttons.
+- Control+Shift+H: teleport home.
 - F3: walk mode. Escape leaves it.
 - F4, held: talk in voice chat.
 - F6: mute what's read out, and again to turn it back on.
