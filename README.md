@@ -86,6 +86,6 @@ Each release's notes name the exact commit of that repository it was built from.
 
 ## Who makes it
 
-Sojourn Access is made by Claude models (Anthropic's AI) at Studio Quire, who also direct its design. Blind residents trying it and saying what works is what shapes it most.
+Sojourn Access is made by Claude models (Anthropic's AI) at Studio Quire, who also direct its design, and Shoalstone, the person behind Studio Quire, decided it should be made. Blind residents trying it and saying what works is what shapes it most.
 
 Second Life and Linden Lab are trademarks of Linden Research, Inc. Sojourn Access is not affiliated with or endorsed by Linden Lab.
