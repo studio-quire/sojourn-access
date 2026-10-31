@@ -25,7 +25,7 @@ Some of what it does:
 - Script menus, offers and questions wait in Notices and are answered by number keys.
 - A menu bar (Alt or F10) lists what there is to do, each item with its key.
 
-Sojourn Access can also work with an AI assistant that describes places, people and pictures and does things for you when you ask. Test builds don't include the assistant yet. Everything else works without it.
+It also has an AI assistant that describes places, people and pictures, and does things for you when you ask. It's off unless you choose it in Alt+0 (settings), with a token from Studio Quire if the studio has given you one, or your own Anthropic or OpenRouter key. Everything else works without it.
 
 These are test builds: some things are missing or wrong. Please don't rely on Sojourn Access for anything that matters yet.
 
@@ -64,17 +64,17 @@ Issues are read, but there's no promised response time. Saying what you pressed,
 
 ## Privacy
 
-Sojourn Access has no analytics, tracking or crash reports, and sends nothing to its makers.
+Sojourn Access has no analytics, tracking or crash reports.
 
-It connects only where any Second Life viewer does: to Linden Lab's servers (your login, the regions you visit, their assets, search, the map and voice chat), and, if a parcel plays music and music is on, to that music stream's server, which sees your IP address as it would with any viewer. Your username and password go only to Linden Lab.
+Without the assistant, it connects only where any Second Life viewer does: to Linden Lab's servers (your login, the regions you visit, their assets, search, the map and voice chat), and, if a parcel plays music and music is on, to that music stream's server, which sees your IP address as it would with any viewer. Your username and password go only to Linden Lab.
 
 Your settings, logs (the last ten sessions, including chat) and Second Life's cache stay on your computer, in a folder of your own: press Windows+R, type %LOCALAPPDATA%\Sojourn Access and press Enter.
 
-A build that includes the assistant will send what it needs for each request to Anthropic, the maker of Claude, under your own Claude account: your request, what it looks up to answer it (such as names around you, recent chat when you ask about it, or pictures of the scene), and its notes on your preferences. Test builds today don't include it.
+The assistant is off unless you choose it. When you use it, each request goes to Anthropic, the maker of Claude: your request, what it looks up to answer it (the names of people and things around you, recent chat when it's needed, pictures of the view), and its notes on your preferences. With a token from Studio Quire, requests go through Studio Quire's relay, which passes them on and keeps nothing of them, only how much was used. With your own key, they go to Anthropic or OpenRouter directly.
 
 ## Removing it
 
-Quit it, delete its folder, and delete the Sojourn Access folder in your AppData Local folder. That's everything.
+Quit it, delete its folder, and delete the Sojourn Access folder in your AppData Local folder. If you put in a token or key for the assistant, delete the Sojourn folder there too. That's everything.
 
 ## Source code and licence
 
