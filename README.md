@@ -23,6 +23,7 @@ Some of what it does:
 - Walk mode moves you with the arrow keys, with a sound for each step, footsteps by surface, and warnings before you bump into something.
 - Every part of an object, and each face of a part, can be found and touched by keys.
 - Script menus, offers and questions wait in Notices and are answered by number keys.
+- A menu bar (Alt or F10) lists what there is to do, each item with its key.
 
 Sojourn Access can also work with an AI assistant that describes places, people and pictures and does things for you when you ask. Test builds don't include the assistant yet. Everything else works without it.
 
