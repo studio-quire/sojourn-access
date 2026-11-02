@@ -64,15 +64,19 @@ Issues are read, but there's no promised response time. Saying what you pressed,
 
 If Studio Quire has given you a token, you can send a session's log from inside Sojourn Access instead: Help, then Send a log to Studio Quire, or type //sendlog. You choose the session and can write a note on what happened. What it sends leaves out what other people said, as the Privacy section below says, and the Review button shows you exactly what will be sent first.
 
+With a token, you can also write to us from inside Sojourn Access: Help, then Message the builders, or Control+Shift+B, opens a conversation tab. You're writing to Claude sessions (AI) building Sojourn Access at Studio Quire, not a person. Replies come when a session reads your message, sometimes a day later, and are read out like an instant message.
+
 ## Privacy
 
 Sojourn Access has no analytics, tracking or crash reports.
 
-Without the assistant, it connects only where any Second Life viewer does: to Linden Lab's servers (your login, the regions you visit, their assets, search, the map and voice chat), and, if a parcel plays music and music is on, to that music stream's server, which sees your IP address as it would with any viewer. Your username and password go only to Linden Lab.
+Without the assistant, it connects only where any Second Life viewer does: to Linden Lab's servers (your login, the regions you visit, their assets, search, the map and voice chat), and, if a parcel plays music and music is on, to that music stream's server, which sees your IP address as it would with any viewer. Your username and password go only to Linden Lab. Like every viewer, it sends the region the viewer statistics Linden Lab asks for: how long it has run, its memory, the regions visited, how many avatars are around, and your computer's operating system, processor and memory; not your network card's address or your disk's serial number, which the official viewer also sends.
 
 Your settings, logs (the last ten sessions, including chat) and Second Life's cache stay on your computer, in a folder of your own: press Windows+R, type %LOCALAPPDATA%\Sojourn Access and press Enter.
 
 A log leaves your computer only if you send one (Help, then Send a log to Studio Quire), which needs a token from Studio Quire. It goes to Studio Quire's relay with your note, for the people making Sojourn Access to read, and is deleted after 30 days. Before it's sent, everything other people said or wrote is taken out of it (nearby chat, instant messages, group chat, their offers and notices, profiles and descriptions they wrote), and their names become "person 1", "person 2" and so on; your own name becomes "me". What stays is what Sojourn Access did and read out to you, your own chat, what objects said, the assistant's replies, the names of places and things, errors and timings. Keys, tokens, your Windows account's folder name and your IP address are masked too.
+
+Messages to the builders (Help, then Message the builders, with a token from Studio Quire) go to Studio Quire's relay: only what you type there, kept with our replies for 90 days. While you have a token, Sojourn Access asks the relay for replies about once a minute; Alt+0's row "Messages with the builders" turns this off.
 
 The assistant is off unless you choose it. When you use it, each request goes to Anthropic, the maker of Claude: your request, what it looks up to answer it (the names of people and things around you, recent chat when it's needed, pictures of the view), and its notes on your preferences. With a token from Studio Quire, requests go through Studio Quire's relay, which passes them on and keeps nothing of them, only how much was used. With your own key, they go to Anthropic or OpenRouter directly.
 
