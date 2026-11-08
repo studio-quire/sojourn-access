@@ -1,3 +1,5 @@
+<img src="icon.png" alt="" width="64" height="64">
+
 # Sojourn Access
 
 Second Life with a screen reader and the keyboard, on Windows. Early test builds.
